@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=msblogstorageaccount1;AccountKey=<your jobs storage account key here>;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "java",
+    "msblog_javaapp_EVENTHUB": "Endpoint=sb://msblog.servicebus.windows.net/;SharedAccessKeyName=java-app;SharedAccessKey=<your eventhub shared access key here>=;EntityPath=blockchain-usd-btc-price",
+    "JAVA_HOME": "/Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home",
+    "CosmosDBConnectionString": "AccountEndpoint=https://ms-blog-cosmos.documents.azure.com:443/;AccountKey=<your cosmos db account key here>;"
+  }
+}
